@@ -6,4 +6,8 @@
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
 
+    <changeSet id="create_table_employee" author="jj" context="prod">
+        <sqlFile path="db/changelog/create_table_employee.sql"/>
+    </changeSet>
+
 </databaseChangeLog>
