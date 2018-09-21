@@ -10,4 +10,12 @@
         <sqlFile path="db/changelog/create_table_employee.sql"/>
     </changeSet>
 
+    <changeSet id="update_table_employee" author="jj" context="prod">
+        <sqlFile path="db/changelog/update_table_employee.sql"/>
+    </changeSet>
+
+    <changeSet id="update_table_employee_add_column_role" author="jj" context="prod">
+        <sqlFile path="db/changelog/update_table_employee_add_column_role.sql"/>
+    </changeSet>
+
 </databaseChangeLog>

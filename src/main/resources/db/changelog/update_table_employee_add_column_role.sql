@@ -1,0 +1,1 @@
+alter table employee add column role varchar(255) not null;
